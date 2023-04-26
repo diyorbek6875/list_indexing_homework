@@ -6,4 +6,10 @@ def main(list_num):
     Returns:
         int: return answer
     """
-    return
+    if list_num[0]>list_num[-1]:
+        a=list_num[0]
+    else:
+        a=list_num[-1]
+    
+    return a
+print(main([9,3,4,5,6,7,8]))
